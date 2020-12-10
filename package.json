@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha test/*.test.js",
-    "serve": "cd src & nodemon server.js"
+    "serve": "cd src && nodemon server.js"
   },
   "author": "JessicaFlorey",
   "license": "ISC",
