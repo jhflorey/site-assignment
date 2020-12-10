@@ -1,0 +1,29 @@
+{
+  "name": "project_testing_assignment",
+  "version": "1.0.0",
+  "description": "Project Testing Assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/*.test.js",
+    "serve": "cd src & nodemon server.js"
+  },
+  "author": "JessicaFlorey",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.9.5",
+    "apollo-server": "^2.19.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "graphql-type-json": "^0.3.2",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "supertest": "^6.0.1"
+  }
+}
